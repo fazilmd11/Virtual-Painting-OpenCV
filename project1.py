@@ -1,3 +1,10 @@
+"""
+Project using OpenCV.
+Virtual Painting.
+Coded only for colours:blue,orange,pink and yellow.
+Run it on PyCharm preferably with opencv installed on the interpreter.
+"""
+
 import cv2
 import numpy as np
 frameWidth = 640
