@@ -9,8 +9,8 @@ import cv2
 import numpy as np
 frameWidth = 640
 frameHeight = 480
-url = "http://192.168.0.101:8080/video"
-cap=cv2.VideoCapture(url)
+#url = "http://192.168.0.101:8080/video"
+cap=cv2.VideoCapture(0)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
